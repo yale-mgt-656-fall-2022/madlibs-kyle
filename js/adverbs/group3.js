@@ -1,5 +1,6 @@
 adverbs = adverbs.concat([
     'smartly',
     'smoothly',
-    'boldly'
+    'boldly',
+    'heartily'
 ]);
