@@ -3,5 +3,6 @@ verbs = verbs.concat([
     'jump',
     'code',
     'hit',
-    'dance'
+    'dance',
+    "eat"
 ]);
