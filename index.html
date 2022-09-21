@@ -15,6 +15,7 @@
         let adverbs = [];
         let verbs = [];
         let smileys = [];
+        let prepositions = [];
 
         function chooseRandom(anArray) {
             return anArray[Math.floor(Math.random() * anArray.length)];
@@ -37,6 +38,7 @@
             storyContent = storyContent.replace(/ADJECTIVE/g, () => chooseRandom(adjectives));
             storyContent = storyContent.replace(/ADVERB/g, () => chooseRandom(adverbs));
             storyContent = storyContent.replace(/VERB/g, () => chooseRandom(verbs));
+            storyContent = storyContent.replace(/PREPOSITIONS/g, () => chooseRandom(prepositions));
             
 
             document.querySelector('#rendered-story').innerHTML = storyContent;
@@ -48,7 +50,9 @@
     <script src="js/adverbs/kyle.js"></script>
     <script src="js/nouns/kyle.js"></script>
     <script src="js/nouns/kyle2.js"></script>
+    <script src="js/nouns/kishan.js"></script>
     <script src="js/adjectives/kyle.js"></script>
+    <script src="js/prepositions/kishan.js"></script>
 </head>
 
 <body>
@@ -68,6 +72,9 @@
     </div>
     <div class="story">
         On a ADJECTIVE day at Yale, NOUN and NOUN VERB, which was ADJECTIVE.
+    </div>
+    <div class="story">
+        On a ADJECTIVE day PREPOSITIONS New Haven, NOUN and NOUN VERB, which was ADJECTIVE.
     </div>
     
 
