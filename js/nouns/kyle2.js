@@ -1,5 +1,5 @@
 nouns = nouns.concat([
-    'Anjani',
-    'Kerwin',
-    'Judy'
+    'Julian',
+    'Jason',
+    'Gil'
 ]);
